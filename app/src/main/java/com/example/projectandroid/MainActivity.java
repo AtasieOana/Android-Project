@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // database initial test
+
+        // test user in database
         User user = new User();
         user.setEmail("test@gmail.com");
         user.setName("test");
@@ -32,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("I'm here");
 
         System.out.println(userRepository.getUserByEmail("test@gmail.com"));
+
+        // test news in database
 
         News news = new News();
         news.setTitle("Title news");
