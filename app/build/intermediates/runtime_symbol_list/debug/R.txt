@@ -2934,6 +2934,7 @@ int id textSpacerNoButtons 0x7f0801a9
 int id textSpacerNoTitle 0x7f0801aa
 int id textStart 0x7f0801ab
 int id textTop 0x7f0801ac
+int id textViewSSID 0x7f0801dc
 int id text_input_end_icon 0x7f0801ad
 int id text_input_error_icon 0x7f0801ae
 int id text_input_start_icon 0x7f0801af
@@ -3864,7 +3865,7 @@ int style Theme_MaterialComponents_Light_NoActionBar 0x7f100239
 int style Theme_MaterialComponents_Light_NoActionBar_Bridge 0x7f10023a
 int style Theme_MaterialComponents_NoActionBar 0x7f10023b
 int style Theme_MaterialComponents_NoActionBar_Bridge 0x7f10023c
-int style Theme_ProiectAndroid 0x7f10023d
+int style Theme_ProjectAndroid 0x7f10023d
 int style ThemeOverlay_AppCompat 0x7f10023e
 int style ThemeOverlay_AppCompat_ActionBar 0x7f10023f
 int style ThemeOverlay_AppCompat_Dark 0x7f100240

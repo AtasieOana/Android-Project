@@ -3,6 +3,7 @@ package com.example.projectandroid;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 import com.example.projectandroid.models.News;
 import com.example.projectandroid.models.User;
@@ -50,6 +51,28 @@ public class MainActivity extends AppCompatActivity {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+
+        News news_show = new News();
+
+
+
+        try {
+            news_show = newsRepository.getNewsById(1);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(news_show);
+
+        String title;
+        title = news_show.getTitle();
+        String content;
+        content = news_show.getContent();
+
+        TextView tvSSID = (TextView) findViewById(R.id.textViewSSID);
+       // String text;
+       // text = news_show.toString();
+        tvSSID.setText(title + "\n" + "\n" + content);
 
 
     }
