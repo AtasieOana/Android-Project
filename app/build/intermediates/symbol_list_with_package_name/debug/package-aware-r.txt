@@ -2605,6 +2605,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id buttonPanel
+id buttonTitle
 id cache_measures
 id callMeasure
 id cancel_button

@@ -70,9 +70,10 @@ public class MainActivity extends AppCompatActivity {
         content = news_show.getContent();
 
         TextView tvSSID = (TextView) findViewById(R.id.textViewSSID);
-       // String text;
-       // text = news_show.toString();
         tvSSID.setText(title + "\n" + "\n" + content);
+
+        TextView Title = (TextView) findViewById(R.id.buttonTitle);
+        Title.setText(title);
 
 
     }
