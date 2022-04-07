@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.ProjectAndroid" >
         <activity
+            android:name="com.example.projectandroid.LoginPage"
+            android:exported="false" />
+        <activity
             android:name="com.example.projectandroid.MainActivity"
             android:exported="true" >
             <intent-filter>

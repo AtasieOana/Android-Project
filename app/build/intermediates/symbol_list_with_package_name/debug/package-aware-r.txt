@@ -2604,6 +2604,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id buttonLogIn
 id buttonPanel
 id buttonTitle
 id cache_measures
@@ -3069,6 +3070,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login_page
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item

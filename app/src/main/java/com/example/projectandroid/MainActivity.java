@@ -2,7 +2,10 @@ package com.example.projectandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.projectandroid.models.News;
@@ -17,8 +20,21 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        //LogIn button
+        Button button;
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //LogIn button
+        button = findViewById(R.id.buttonLogIn);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                openLoginPage();
+            }
+        });
 
         // database initial test
         User user = new User();
@@ -76,5 +92,11 @@ public class MainActivity extends AppCompatActivity {
         Title.setText(title);
 
 
+    }
+
+    //button LogIn
+    public void openLoginPage() {
+        Intent intent = new Intent(this, LoginPage.class);
+        startActivity(intent);
     }
 }
