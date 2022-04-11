@@ -9,11 +9,16 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id NewsList
 id buttonLogIn
 id buttonTitle
+id recycler_view
 id textViewSSID
+id textview
 layout activity_login_page
 layout activity_main
+layout activity_news_list
+layout list_item_view
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

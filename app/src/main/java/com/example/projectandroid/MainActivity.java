@@ -36,6 +36,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        //NewsList button
+        Button button2;
+
+        button2 = findViewById(R.id.NewsList);
+        button2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                openNewsList();
+            }
+        });
+
         // database initial test
         User user = new User();
         user.setEmail("test@gmail.com");
@@ -99,4 +111,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LoginPage.class);
         startActivity(intent);
     }
+
+    //button NewsList
+    public void openNewsList() {
+        Intent intent = new Intent(this, NewsList.class);
+        startActivity(intent);
+    }
+
 }
