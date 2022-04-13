@@ -16,10 +16,14 @@ import java.util.List;
 
 public class NewsList extends AppCompatActivity {
 
+    private NewsRepository newsRepository;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news_list);
+
+        newsRepository = new NewsRepository(this.getApplicationContext());
 
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
 
@@ -29,10 +33,8 @@ public class NewsList extends AppCompatActivity {
     }
 
 
-    //NewsRepository newsRepository = new NewsRepository(this.getApplicationContext());
 
-    /*
-    private List<String> generateData2() {
+    private List<String> generateData() {
         List<String> dataa = new ArrayList<>();
         List<News> news = new ArrayList<News>();
         News n = null;
@@ -53,13 +55,13 @@ public class NewsList extends AppCompatActivity {
             
             data = n.getTitle();
             
-            dataa.add(String.valueOf(data) + "th Element");
+            dataa.add(String.valueOf(data)+String.valueOf(x));
         }
 
         return dataa;
     }
-    */
 
+/*
     private List<String> generateData() {
         List<String> data = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
@@ -67,7 +69,7 @@ public class NewsList extends AppCompatActivity {
         }
         return data;
     }
-
+*/
 
 
 }
