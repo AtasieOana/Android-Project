@@ -40,7 +40,7 @@ public class User {
 
 
     // getters
-    public long getId() {
+    public int getId() {
         return this.id;
     }
 

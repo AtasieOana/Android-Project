@@ -48,6 +48,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        NewsRepository newsRepository = new NewsRepository(this.getApplicationContext());
+        newsRepository.addNews();
+
+        System.out.println("acii");
+
+        try {
+            System.out.println(newsRepository.getAllNews());
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        /*
         // database initial test
         User user = new User();
         user.setEmail("test@gmail.com");
@@ -102,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView Title = (TextView) findViewById(R.id.buttonTitle);
         Title.setText(title);
-
+*/
 
     }
 

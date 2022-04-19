@@ -8,50 +8,23 @@
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/textViewSSID"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Your SSID"
-        android:text="Text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.113" />
-
     <Button
         android:id="@+id/buttonLogIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="4dp"
-        android:text="Log In"
+        android:text="@string/log_in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/buttonTitle"
-        android:layout_width="103dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="428dp"
-        android:gravity="center"
-        android:text="Text"
-        android:textColor="#fff"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.178"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/NewsList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="120dp"
-        android:text="NewsList"
+        android:text="@string/newslist"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

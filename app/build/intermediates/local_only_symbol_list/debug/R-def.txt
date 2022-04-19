@@ -7,13 +7,14 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable google
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id NewsList
 id buttonLogIn
-id buttonTitle
+id google_btn
 id recycler_view
-id textViewSSID
+id signin
 id textview
 layout activity_login_page
 layout activity_main
@@ -22,4 +23,7 @@ layout list_item_view
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string log_in
+string newslist
+string text
 style Theme.ProjectAndroid

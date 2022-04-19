@@ -17,9 +17,9 @@ public class AppDatabase extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         String CREATE_USER_TABLE = "CREATE TABLE USER_TABLE ("
-                + "id INTEGER PRIMARY KEY, email TEXT, password TEXT, name TEXT)";
+                + "id INTEGER PRIMARY KEY AUTOINCREMENT, email TEXT, password TEXT, name TEXT)";
         String CREATE_NEWS_TABLE = "CREATE TABLE NEWS_TABLE ("
-                + "id INTEGER PRIMARY KEY, user_id REFERENCES USER_TABLE(id), title TEXT, content TEXT, created_at DATE)";
+                + "id INTEGER PRIMARY KEY AUTOINCREMENT, user_id REFERENCES USER_TABLE(id), title TEXT, content TEXT, created_at DATE)";
         db.execSQL(CREATE_USER_TABLE);
         db.execSQL(CREATE_NEWS_TABLE);
     }

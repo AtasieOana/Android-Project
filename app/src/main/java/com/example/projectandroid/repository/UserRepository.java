@@ -22,13 +22,13 @@ public class UserRepository {
 
     }
 
-    public void insertUser(User user) {
+    public int insertUser(User user) {
         ContentValues values = new ContentValues();
         values.put("name", user.getName());
         values.put("email", user.getEmail());
         values.put("password", user.getPassword());
 
-        db.insert("USER_TABLE", null, values);
+        return (int) db.insert("USER_TABLE", null, values);
     }
 
     public User getUserById(int id) {
@@ -54,6 +54,21 @@ public class UserRepository {
                 cursor.getString(1), cursor.getString(2), cursor.getString(3));
     }
 
+
+    public User getUserByName(String name) {
+        Cursor cursor = db.query("USER_TABLE", new String[] { "id",
+                        "email", "password", "name" }, "name = ?",
+                new String[] { String.valueOf(name) }, null, null, null, null);
+
+        if(cursor.getCount()<=0){
+            return null;
+        }
+
+        cursor.moveToFirst();
+
+        return new User(Integer.parseInt(cursor.getString(0)),
+                cursor.getString(1), cursor.getString(2), cursor.getString(3));
+    }
     public List<User> getAllUsers() {
         List<User> userList = new ArrayList<User>();
         String selectQuery = "SELECT  * FROM USER_TABLE";
