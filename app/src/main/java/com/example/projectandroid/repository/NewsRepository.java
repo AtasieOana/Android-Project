@@ -19,7 +19,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.Locale;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -67,11 +68,13 @@ public class NewsRepository {
         if(cursor.getCount()<=0){
             return null;
         }
-
         cursor.moveToFirst();
 
-        return new News(Integer.parseInt(cursor.getString(0)),
+        News news = new News(Integer.parseInt(cursor.getString(0)),
                 Integer.parseInt(cursor.getString(1)), cursor.getString(2), cursor.getString(3), stringToDate(cursor.getString(4)));
+
+        cursor.close();
+        return news;
     }
 
     public News getNewsByTitleAndContent(String title, String content) throws ParseException {
@@ -82,11 +85,13 @@ public class NewsRepository {
         if(cursor.getCount()<=0){
             return null;
         }
-
         cursor.moveToFirst();
 
-        return new News(Integer.parseInt(cursor.getString(0)),
+        News news = new News(Integer.parseInt(cursor.getString(0)),
                 Integer.parseInt(cursor.getString(1)), cursor.getString(2), cursor.getString(3), stringToDate(cursor.getString(4)));
+
+        cursor.close();
+        return news;
     }
 
 
@@ -108,6 +113,7 @@ public class NewsRepository {
                 newsList.add(news);
             } while (cursor.moveToNext());
         }
+        cursor.close();
         return newsList;
     }
 
@@ -130,18 +136,14 @@ public class NewsRepository {
     public void addNews(){
         Call<ResultList> call = RetrofitClient.getInstance().getMyApi().getApiResult("asHLgk5KDd4HrII4v2mQ-YdGwt3WP2BkmlxfbVPDyfHzitK8");
 
-
         call.enqueue(new Callback<ResultList>() {
             @Override
             public void onResponse(@NonNull Call<ResultList> call, @NonNull Response<ResultList> response) {
                 ResultList apiResults = response.body();
-                assert apiResults != null;
-                List<ApiResult> apiResultList = apiResults.getApiResultList();
+                List<ApiResult> apiResultList = Objects.requireNonNull(apiResults).getApiResultList();
                 for(ApiResult result: apiResultList){
                     try {
-                        System.out.println("este1");
                         if(getNewsByTitleAndContent(result.getTitle(), result.getDescription()) == null){
-                            System.out.println("este");
                             User user = userRepository.getUserByName(result.getAuthor());
                             int user_id;
                             if(user != null){
@@ -153,9 +155,7 @@ public class NewsRepository {
                                 user_id = userRepository.insertUser(newUser);
                             }
                             Date date = stringToDate(result.getPublished());
-                            News news = new News(1, user_id, result.getTitle(), result.getDescription(), date);
-                            System.out.println(news);
-                            insertNews(news);
+                            insertNews(new News(1, user_id, result.getTitle(), result.getDescription(), date));
                         }
                     } catch (ParseException e) {
                         e.printStackTrace();
@@ -166,7 +166,7 @@ public class NewsRepository {
 
             @Override
             public void onFailure(@NonNull Call<ResultList> call, @NonNull Throwable t) {
-                System.out.println(t);
+                System.out.println(t.getMessage());
             }
         });
     }
