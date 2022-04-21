@@ -25,7 +25,7 @@
             android:name="com.example.projectandroid.LoginPage"
             android:exported="false" />
         <activity
-            android:name="com.example.projectandroid.NewsList"
+            android:name="com.example.projectandroid.NewsFeedActivity"
             android:exported="false" />
         <activity
             android:name="com.example.projectandroid.MainActivity"

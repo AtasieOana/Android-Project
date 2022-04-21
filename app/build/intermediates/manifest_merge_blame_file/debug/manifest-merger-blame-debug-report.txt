@@ -42,8 +42,8 @@
 26-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:18:13-37
 27        <activity
 27-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:19:9-21:40
-28            android:name="com.example.projectandroid.NewsList"
-28-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:20:13-37
+28            android:name="com.example.projectandroid.NewsFeedActivity"
+28-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:20:13-45
 29            android:exported="false" />
 29-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:21:13-37
 30        <activity

@@ -2781,6 +2781,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layoutNewsFragment
 id left
 id leftToRight
 id legacy
@@ -2856,6 +2857,8 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id newsAuthor
+id newsTitle
 id noScroll
 id noState
 id none
@@ -2888,8 +2891,8 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id recViewNews
 id rectangles
-id recycler_view
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2984,6 +2987,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3121,7 +3125,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login_page
 layout activity_main
-layout activity_news_list
+layout activity_news_feed
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3185,6 +3189,8 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout news_fragment
+layout news_layout
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -3245,6 +3251,7 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string author_name
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string character_counter_content_description
@@ -3359,6 +3366,10 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string mtrl_timepicker_confirm
+string news
+string news_feed
+string news_feed_button
+string news_title
 string newslist
 string password_toggle_content_description
 string path_password_eye

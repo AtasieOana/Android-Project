@@ -143,7 +143,7 @@ public class NewsRepository {
                 List<ApiResult> apiResultList = Objects.requireNonNull(apiResults).getApiResultList();
                 for(ApiResult result: apiResultList){
                     try {
-                        if(getNewsByTitleAndContent(result.getTitle(), result.getDescription()) == null){
+                        if(getNewsByTitleAndContent(result.getTitle(), result.getDescription()) == null && !result.getAuthor().equals("")){
                             User user = userRepository.getUserByName(result.getAuthor());
                             int user_id;
                             if(user != null){

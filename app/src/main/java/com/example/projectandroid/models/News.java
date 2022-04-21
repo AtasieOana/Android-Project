@@ -44,11 +44,11 @@ public class News {
     }
 
     // getters
-    public long getId() {
+    public int getId() {
         return this.id;
     }
 
-    public long getUserId() {
+    public int getUserId() {
         return this.user_id;
     }
 

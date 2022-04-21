@@ -1,49 +1,84 @@
 package com.example.projectandroid;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.List;
+import com.example.projectandroid.models.News;
+import com.example.projectandroid.models.User;
+import com.example.projectandroid.repository.UserRepository;
 
-public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder> {
-    private List<String> dataa;
-    public CustomAdapter (List<String> dataa){
-        this.dataa = dataa;
+import java.util.ArrayList;
+
+public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomViewHolder> {
+
+    ArrayList<News> newsArrayList;
+    OnItemListener onItemListener;
+    UserRepository userRepository;
+    Context context;
+
+    public CustomAdapter(ArrayList<News> newsArrayList, OnItemListener onItemListener,Context context) {
+        this.newsArrayList = newsArrayList;
+        this.onItemListener = onItemListener;
+        this.context = context;
     }
 
+
+    @NonNull
     @Override
-    public CustomAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View rowItem = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item_view, parent, false);
-        return new ViewHolder(rowItem);
+    public CustomViewHolder onCreateViewHolder(@NonNull  ViewGroup viewgroup, int i) {
+
+        View view = LayoutInflater.from(context)
+                .inflate(R.layout.news_layout,viewgroup,false);
+
+        this.userRepository = new UserRepository(context);
+
+        return new CustomViewHolder(view);
     }
 
+
+
     @Override
-    public void onBindViewHolder(CustomAdapter.ViewHolder holder, int position) {
-        holder.textView.setText(this.dataa.get(position));
+    public void onBindViewHolder(@NonNull CustomAdapter.CustomViewHolder customViewHolder, int i) {
+        News news = newsArrayList.get(i);
+
+        User user = userRepository.getUserById(news.getUserId());
+
+        String writtenBy = "Written by " + user.getName();
+        customViewHolder.newsAuthor.setText(writtenBy);
+        customViewHolder.newsTitle.setText(news.getTitle());
+
+        customViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onItemListener.onItemClick(newsArrayList.get(customViewHolder.getBindingAdapterPosition()));
+            }
+        });
     }
 
     @Override
     public int getItemCount() {
-        return this.dataa.size();
+        return newsArrayList.size();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        private TextView textView;
+    public static class CustomViewHolder extends RecyclerView.ViewHolder {
 
-        public ViewHolder(View view) {
-            super(view);
-            view.setOnClickListener(this);
-            this.textView = view.findViewById(R.id.textview);
-        }
+        TextView newsTitle, newsAuthor;
 
-        @Override
-        public void onClick(View view) {
-            Toast.makeText(view.getContext(), "position : " + getLayoutPosition() + " text : " + this.textView.getText(), Toast.LENGTH_SHORT).show();
+        public CustomViewHolder(@NonNull View itemView) {
+            super(itemView);
+            newsTitle = itemView.findViewById(R.id.newsTitle);
+            newsAuthor = itemView.findViewById(R.id.newsAuthor);
+
         }
+    }
+
+    public interface OnItemListener{
+        void onItemClick(News news);
     }
 }

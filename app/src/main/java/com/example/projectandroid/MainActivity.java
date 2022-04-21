@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.projectandroid.newsApi.AsyncTaskNews;
+import com.example.projectandroid.repository.NewsRepository;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         // add initial news in database
         AsyncTaskNews task = new AsyncTaskNews(this);
         task.execute();
+
         System.out.println("main activity");
 
     }
@@ -55,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
     //button NewsList
     public void openNewsList() {
-        Intent intent = new Intent(this, NewsList.class);
+        Intent intent = new Intent(this, NewsFeedActivity.class);
         startActivity(intent);
     }
 

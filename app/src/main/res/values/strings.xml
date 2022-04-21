@@ -3,4 +3,9 @@
     <string name="text">Text</string>
     <string name="newslist">NewsList</string>
     <string name="log_in">Log In</string>
+    <string name="news">NEWS</string>
+    <string name="news_title">News Title</string>
+    <string name="author_name">Author name</string>
+    <string name="news_feed">NEWS FEED</string>
+    <string name="news_feed_button">News feed</string>
 </resources>
