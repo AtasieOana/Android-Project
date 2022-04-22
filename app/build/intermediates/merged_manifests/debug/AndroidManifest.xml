@@ -21,14 +21,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.ProjectAndroid" >
+        <activity android:name="com.example.projectandroid.NewsFeedActivity" />
         <activity
-            android:name="com.example.projectandroid.LoginPage"
-            android:exported="false" />
-        <activity
-            android:name="com.example.projectandroid.NewsFeedActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.projectandroid.MainActivity"
+            android:name="com.example.projectandroid.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,6 +31,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.projectandroid.RegisterActivity" />
+        <activity android:name="com.example.projectandroid.MainActivity" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"

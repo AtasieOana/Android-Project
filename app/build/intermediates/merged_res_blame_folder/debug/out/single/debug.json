@@ -28,12 +28,16 @@
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register.xml.flat",
+        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login_page.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\activity_login_page.xml"
+        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_news_feed.xml.flat",

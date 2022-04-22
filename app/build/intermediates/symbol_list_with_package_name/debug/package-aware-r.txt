@@ -2646,7 +2646,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id buttonLogIn
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2724,6 +2723,7 @@ id easeOut
 id east
 id edit_query
 id elastic
+id emailInput
 id end
 id endToStart
 id enterAlways
@@ -2745,8 +2745,8 @@ id fragment_container_view_tag
 id frost
 id ghost_view
 id ghost_view_holder
+id goToRegisterButton
 id gone
-id google_btn
 id graph
 id graph_wrap
 id group_divider
@@ -2791,6 +2791,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loginTitle
 id masked
 id match_constraint
 id match_parent
@@ -2879,6 +2880,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id passwordInput
 id password_toggle
 id path
 id pathRelative
@@ -2887,12 +2889,15 @@ id percent
 id pin
 id position
 id postLayout
+id pressLoginButton
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id recViewNews
 id rectangles
+id registerButton
+id registerTitle
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2929,7 +2934,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signin
 id sin
 id skipCollapsed
 id skipped
@@ -3019,6 +3023,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usernameInput
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3123,9 +3128,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_login_page
+layout activity_login
 layout activity_main
 layout activity_news_feed
+layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3277,14 +3283,20 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string enter_email
+string enter_password
+string enter_username
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string go_to_login
+string go_to_register
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
 string log_in
+string login
 string m3_ref_typeface_brand_display_regular
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -3376,6 +3388,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string register
 string search_menu_title
 string status_bar_notification_info_overflow
 string text
