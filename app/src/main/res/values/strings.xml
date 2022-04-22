@@ -8,4 +8,11 @@
     <string name="author_name">Author name</string>
     <string name="news_feed">NEWS FEED</string>
     <string name="news_feed_button">News feed</string>
+    <string name="enter_email">Enter email</string>
+    <string name="register">REGISTER</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="go_to_login">Go to login</string>
+    <string name="login">LOGIN</string>
+    <string name="go_to_register">Go to register</string>
 </resources>

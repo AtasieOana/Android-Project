@@ -47,8 +47,11 @@ public class UserRepository {
         Cursor cursor = db.query("USER_TABLE", new String[] { "id",
                         "email", "password", "name" }, "email = ?",
                 new String[] { String.valueOf(email) }, null, null, null, null);
-        if (cursor != null)
-            cursor.moveToFirst();
+
+        if(cursor.getCount()<=0){
+            return null;
+        }
+        cursor.moveToFirst();
 
         return new User(Integer.parseInt(cursor.getString(0)),
                 cursor.getString(1), cursor.getString(2), cursor.getString(3));
@@ -63,7 +66,6 @@ public class UserRepository {
         if(cursor.getCount()<=0){
             return null;
         }
-
         cursor.moveToFirst();
 
         return new User(Integer.parseInt(cursor.getString(0)),

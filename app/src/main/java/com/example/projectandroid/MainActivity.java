@@ -22,16 +22,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //LogIn button
-        button = findViewById(R.id.buttonLogIn);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openLoginPage();
-            }
-        });
-
-
         //NewsList button
         Button button2;
 
@@ -49,12 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
         System.out.println("main activity");
 
-    }
-
-    //button LogIn
-    public void openLoginPage() {
-        Intent intent = new Intent(this, LoginPage.class);
-        startActivity(intent);
     }
 
     //button NewsList

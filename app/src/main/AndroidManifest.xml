@@ -13,21 +13,18 @@
         android:hardwareAccelerated="true"
         android:theme="@style/Theme.ProjectAndroid">
 
-    <activity
-            android:name=".LoginPage"
-            android:exported="false" />
+        <activity android:name=".NewsFeedActivity" />
         <activity
-            android:name=".NewsFeedActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
-    </application>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".MainActivity" />
 
+    </application>
 </manifest>
