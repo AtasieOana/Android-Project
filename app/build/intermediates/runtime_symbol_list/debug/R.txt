@@ -2616,6 +2616,9 @@ int id action_text 0x7f080044
 int id actions 0x7f080045
 int id activity_chooser_view_content 0x7f080046
 int id add 0x7f080047
+int id addButton 0x7f0801fc
+int id addNewsButton 0x7f0801f6
+int id addNewsTitle 0x7f0801f7
 int id adjust_height 0x7f080048
 int id adjust_width 0x7f080049
 int id alertTitle 0x7f08004a
@@ -2676,6 +2679,7 @@ int id confirm_button 0x7f080081
 int id constraint 0x7f080082
 int id container 0x7f080083
 int id content 0x7f080084
+int id contentInput 0x7f0801f8
 int id contentPanel 0x7f080085
 int id contiguous 0x7f080086
 int id continuousVelocity 0x7f080087
@@ -2985,10 +2989,12 @@ int id test_radiobutton_android_button_tint 0x7f0801b1
 int id test_radiobutton_app_button_tint 0x7f0801b2
 int id text 0x7f0801b3
 int id text2 0x7f0801b4
+int id textContent 0x7f0801f9
 int id textEnd 0x7f0801b5
 int id textSpacerNoButtons 0x7f0801b6
 int id textSpacerNoTitle 0x7f0801b7
 int id textStart 0x7f0801b8
+int id textTitle 0x7f0801fa
 int id textTop 0x7f0801b9
 int id textView 0x7f0801ba
 int id text_input_end_icon 0x7f0801bb
@@ -3004,6 +3010,7 @@ int id textview 0x7f0801c4
 int id time 0x7f0801c5
 int id title 0x7f0801c6
 int id titleDividerNoCustom 0x7f0801c7
+int id titleInput 0x7f0801fb
 int id title_template 0x7f0801c8
 int id toggle 0x7f0801c9
 int id top 0x7f0801ca
@@ -3129,6 +3136,7 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_login 0x7f0b0079
 int layout activity_main 0x7f0b001d
+int layout activity_new_news 0x7f0b007b
 int layout activity_news_feed 0x7f0b001e
 int layout activity_register 0x7f0b007a
 int layout custom_dialog 0x7f0b001f
@@ -3253,6 +3261,10 @@ int string abc_searchview_description_voice 0x7f0f0017
 int string abc_shareactionprovider_share_with 0x7f0f0018
 int string abc_shareactionprovider_share_with_application 0x7f0f0019
 int string abc_toolbar_collapse_description 0x7f0f001a
+int string add_a_news 0x7f0f00a5
+int string add_news 0x7f0f00a6
+int string add_news_content 0x7f0f00a7
+int string add_news_title 0x7f0f00a8
 int string androidx_startup 0x7f0f001b
 int string app_name 0x7f0f001c
 int string appbar_scrolling_view_behavior 0x7f0f001d
@@ -3284,6 +3296,8 @@ int string common_signin_button_text 0x7f0f0036
 int string common_signin_button_text_long 0x7f0f0037
 int string enter_email 0x7f0f009e
 int string enter_password 0x7f0f009f
+int string enter_the_content 0x7f0f00a9
+int string enter_the_title 0x7f0f00aa
 int string enter_username 0x7f0f00a0
 int string error_icon_content_description 0x7f0f0038
 int string exposed_dropdown_menu_content_description 0x7f0f0039

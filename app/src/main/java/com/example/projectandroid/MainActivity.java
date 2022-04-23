@@ -33,12 +33,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // add initial news in database
-        AsyncTaskNews task = new AsyncTaskNews(this);
-        task.execute();
-
-        System.out.println("main activity");
-
     }
 
     //button NewsList

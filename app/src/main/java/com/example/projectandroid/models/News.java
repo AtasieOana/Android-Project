@@ -22,6 +22,13 @@ public class News {
         this.created_at = created_at;
     }
 
+    public News(int user_id, String title, String content, Date created_at) {
+        this.user_id = user_id;
+        this.title = title;
+        this.content = content;
+        this.created_at = created_at;
+    }
+
     // setters
     public void setId(int id) {
         this.id = id;

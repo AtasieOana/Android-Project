@@ -7,10 +7,16 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="add_a_news">ADD A NEWS</string>
+    <string name="add_news">Add news</string>
+    <string name="add_news_content">Add news content:</string>
+    <string name="add_news_title">Add news title:</string>
     <string name="app_name">ProjectAndroid</string>
     <string name="author_name">Author name</string>
     <string name="enter_email">Enter email</string>
     <string name="enter_password">Enter password</string>
+    <string name="enter_the_content">Enter the content</string>
+    <string name="enter_the_title">Enter the title</string>
     <string name="enter_username">Enter username</string>
     <string name="go_to_login">Go to login</string>
     <string name="go_to_register">Go to register</string>

@@ -10,6 +10,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.projectandroid.models.User;
+import com.example.projectandroid.newsApi.AsyncTaskNews;
 import com.example.projectandroid.repository.UserRepository;
 
 public class LoginActivity extends AppCompatActivity {
@@ -29,6 +30,10 @@ public class LoginActivity extends AppCompatActivity {
         loginButton = findViewById(R.id.pressLoginButton);
 
         userRepository = new UserRepository(this);
+
+        // add initial news in database
+        AsyncTaskNews task = new AsyncTaskNews(this);
+        task.execute();
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override

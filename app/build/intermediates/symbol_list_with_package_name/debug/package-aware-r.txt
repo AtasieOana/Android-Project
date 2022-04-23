@@ -2617,6 +2617,9 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addButton
+id addNewsButton
+id addNewsTitle
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2677,6 +2680,7 @@ id confirm_button
 id constraint
 id container
 id content
+id contentInput
 id contentPanel
 id contiguous
 id continuousVelocity
@@ -2986,10 +2990,12 @@ id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
 id text2
+id textContent
 id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textTitle
 id textTop
 id textView
 id text_input_end_icon
@@ -3005,6 +3011,7 @@ id textview
 id time
 id title
 id titleDividerNoCustom
+id titleInput
 id title_template
 id toggle
 id top
@@ -3130,6 +3137,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_new_news
 layout activity_news_feed
 layout activity_register
 layout custom_dialog
@@ -3254,6 +3262,10 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add_a_news
+string add_news
+string add_news_content
+string add_news_title
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3285,6 +3297,8 @@ string common_signin_button_text
 string common_signin_button_text_long
 string enter_email
 string enter_password
+string enter_the_content
+string enter_the_title
 string enter_username
 string error_icon_content_description
 string exposed_dropdown_menu_content_description

@@ -40,6 +40,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/add_a_news" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -71,10 +71,15 @@ public class RegisterActivity extends AppCompatActivity {
                     Toast.makeText(RegisterActivity.this, "Password needs to have at least 6 characters", Toast.LENGTH_SHORT).show();
                 } else  {
                     // adding user
-                    User user = new User(emailInput.getText().toString(), passwordInput.getText().toString(), nameInput.getText().toString());
-                    userRepository.insertUser(user);
-                    Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
-                    startActivity(intent);
+                    if(userRepository.getUserByEmail(emailInput.getText().toString()) != null){
+                        Toast.makeText(RegisterActivity.this, "There is already an account with this email", Toast.LENGTH_SHORT).show();
+                    }
+                    else {
+                        User user = new User(emailInput.getText().toString(), passwordInput.getText().toString(), nameInput.getText().toString());
+                        userRepository.insertUser(user);
+                        Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+                        startActivity(intent);
+                    }
                 }
             }
         }

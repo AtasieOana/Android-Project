@@ -20,7 +20,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
-import java.util.stream.Collectors;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -28,12 +27,11 @@ import retrofit2.Response;
 
 public class NewsRepository {
 
-    private final AppDatabase appDatabase;
     private final SQLiteDatabase db;
     private final UserRepository userRepository;
 
     public NewsRepository(Context context) {
-        appDatabase = new AppDatabase(context);
+        AppDatabase appDatabase = new AppDatabase(context);
         db = appDatabase.getReadableDatabase();
         userRepository = new UserRepository(context);
     }

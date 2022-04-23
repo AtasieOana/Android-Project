@@ -15,4 +15,10 @@
     <string name="go_to_login">Go to login</string>
     <string name="login">LOGIN</string>
     <string name="go_to_register">Go to register</string>
+    <string name="add_a_news">ADD A NEWS</string>
+    <string name="enter_the_title">Enter the title</string>
+    <string name="add_news_title">Add news title:</string>
+    <string name="add_news">Add news</string>
+    <string name="enter_the_content">Enter the content</string>
+    <string name="add_news_content">Add news content:</string>
 </resources>
