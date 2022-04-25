@@ -8,8 +8,8 @@
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_list_item_view.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\list_item_view.xml"
+        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_news_layout_in_list.xml.flat",
+        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\news_layout_in_list.xml"
     },
     {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_news_fragment.xml.flat",
@@ -18,10 +18,6 @@
     {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_news_layout.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\news_layout.xml"
     },
     {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -78,6 +74,10 @@
     {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_new_news.xml.flat",
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\activity_new_news.xml"
+    },
+    {
+        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_news_details.xml.flat",
+        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\news_details.xml"
     },
     {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",

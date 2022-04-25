@@ -2699,6 +2699,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2894,6 +2895,9 @@ id pin
 id position
 id postLayout
 id pressLoginButton
+id productDescription
+id productPhoto
+id productPrice
 id progress_circular
 id progress_horizontal
 id radio
@@ -3007,7 +3011,6 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textview
 id time
 id title
 id titleDividerNoCustom
@@ -3156,7 +3159,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout list_item_view
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3203,8 +3205,9 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout news_details
 layout news_fragment
-layout news_layout
+layout news_layout_in_list
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

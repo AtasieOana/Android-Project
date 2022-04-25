@@ -15,6 +15,7 @@ id addButton
 id addNewsButton
 id addNewsTitle
 id contentInput
+id description
 id emailInput
 id goToRegisterButton
 id layoutNewsFragment
@@ -23,13 +24,15 @@ id newsAuthor
 id newsTitle
 id passwordInput
 id pressLoginButton
+id productDescription
+id productPhoto
+id productPrice
 id recViewNews
 id registerButton
 id registerTitle
 id textContent
 id textTitle
 id textView
-id textview
 id titleInput
 id usernameInput
 layout activity_login
@@ -37,9 +40,9 @@ layout activity_main
 layout activity_new_news
 layout activity_news_feed
 layout activity_register
-layout list_item_view
+layout news_details
 layout news_fragment
-layout news_layout
+layout news_layout_in_list
 mipmap ic_launcher
 mipmap ic_launcher_round
 string add_a_news

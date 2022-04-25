@@ -2698,6 +2698,7 @@ int id decor_content_parent 0x7f080093
 int id default_activity_button 0x7f080094
 int id deltaRelative 0x7f080095
 int id dependency_ordering 0x7f080096
+int id description 0x7f0801fd
 int id design_bottom_sheet 0x7f080097
 int id design_menu_item_action_area 0x7f080098
 int id design_menu_item_action_area_stub 0x7f080099
@@ -2893,6 +2894,9 @@ int id pin 0x7f080153
 int id position 0x7f080154
 int id postLayout 0x7f080155
 int id pressLoginButton 0x7f0801f5
+int id productDescription 0x7f0801fe
+int id productPhoto 0x7f0801ff
+int id productPrice 0x7f080200
 int id progress_circular 0x7f080156
 int id progress_horizontal 0x7f080157
 int id radio 0x7f080158
@@ -3006,7 +3010,6 @@ int id textinput_helper_text 0x7f0801c0
 int id textinput_placeholder 0x7f0801c1
 int id textinput_prefix_text 0x7f0801c2
 int id textinput_suffix_text 0x7f0801c3
-int id textview 0x7f0801c4
 int id time 0x7f0801c5
 int id title 0x7f0801c6
 int id titleDividerNoCustom 0x7f0801c7
@@ -3155,7 +3158,6 @@ int layout design_navigation_menu 0x7f0b002b
 int layout design_navigation_menu_item 0x7f0b002c
 int layout design_text_input_end_icon 0x7f0b002d
 int layout design_text_input_start_icon 0x7f0b002e
-int layout list_item_view 0x7f0b002f
 int layout m3_alert_dialog 0x7f0b0030
 int layout m3_alert_dialog_actions 0x7f0b0031
 int layout m3_alert_dialog_title 0x7f0b0032
@@ -3202,8 +3204,9 @@ int layout mtrl_picker_header_title_text 0x7f0b005a
 int layout mtrl_picker_header_toggle 0x7f0b005b
 int layout mtrl_picker_text_input_date 0x7f0b005c
 int layout mtrl_picker_text_input_date_range 0x7f0b005d
+int layout news_details 0x7f0b007c
 int layout news_fragment 0x7f0b005e
-int layout news_layout 0x7f0b005f
+int layout news_layout_in_list 0x7f0b007d
 int layout notification_action 0x7f0b0060
 int layout notification_action_tombstone 0x7f0b0061
 int layout notification_template_custom_big 0x7f0b0062
