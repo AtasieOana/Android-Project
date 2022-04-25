@@ -34,7 +34,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
     public CustomViewHolder onCreateViewHolder(@NonNull  ViewGroup viewgroup, int i) {
 
         View view = LayoutInflater.from(context)
-                .inflate(R.layout.news_layout,viewgroup,false);
+                .inflate(R.layout.news_layout_in_list,viewgroup,false);
 
         this.userRepository = new UserRepository(context);
 

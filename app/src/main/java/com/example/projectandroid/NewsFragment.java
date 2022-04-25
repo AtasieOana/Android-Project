@@ -1,6 +1,7 @@
 package com.example.projectandroid;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +16,7 @@ import com.example.projectandroid.repository.NewsRepository;
 
 import java.text.ParseException;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class NewsFragment extends Fragment implements CustomAdapter.OnItemListener{
 
@@ -62,7 +64,8 @@ public class NewsFragment extends Fragment implements CustomAdapter.OnItemListen
 
     @Override
     public void onItemClick(News news) {
-        System.out.println("Item clicked " + news.toString());
-    }
+        Intent intent = new Intent(getContext(), NewsDetailsActivity.class);
+        intent.putExtra("newsId",news.getId());
+        requireContext().startActivity(intent);    }
 }
 
