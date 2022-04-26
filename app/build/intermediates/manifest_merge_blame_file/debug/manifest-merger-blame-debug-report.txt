@@ -44,14 +44,14 @@
 27            android:exported="true" >
 27-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:19:13-36
 28            <intent-filter>
-28-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:20:13-24:25
+28-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:20:13-24:29
 29                <action android:name="android.intent.action.MAIN" />
-29-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:21:13-65
-29-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:21:21-62
+29-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:21:17-69
+29-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:21:25-66
 30
 31                <category android:name="android.intent.category.LAUNCHER" />
-31-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:23:13-73
-31-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:23:23-70
+31-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:23:17-77
+31-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:23:27-74
 32            </intent-filter>
 33        </activity>
 34        <activity android:name="com.example.projectandroid.RegisterActivity" />
