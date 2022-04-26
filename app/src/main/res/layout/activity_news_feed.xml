@@ -48,6 +48,19 @@
             android:layout_marginBottom="10dp"
             android:text="@string/add_a_news" />
 
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:iconifiedByDefault="false"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:defaultQueryHint="Search news by title"
+            app:queryHint="Search news by title" />
+
+
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

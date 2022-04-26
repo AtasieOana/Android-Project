@@ -28,7 +28,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
         this.context = context;
     }
 
-
     @NonNull
     @Override
     public CustomViewHolder onCreateViewHolder(@NonNull  ViewGroup viewgroup, int i) {
@@ -41,7 +40,12 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
         return new CustomViewHolder(view);
     }
 
-
+    public void filterList(ArrayList<News> newsFiltered) {
+        newsArrayList = newsFiltered;
+        System.out.println(newsFiltered);
+        System.out.println(newsArrayList);
+        notifyDataSetChanged();
+    }
 
     @Override
     public void onBindViewHolder(@NonNull CustomAdapter.CustomViewHolder customViewHolder, int i) {

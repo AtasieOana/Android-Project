@@ -2638,6 +2638,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backToFeed
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2923,6 +2924,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchView
 id search_badge
 id search_bar
 id search_button
@@ -3307,6 +3309,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string go_back_to_feed
 string go_to_login
 string go_to_register
 string hide_bottom_view_on_scroll_behavior
@@ -3407,6 +3410,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string register
 string search_menu_title
+string search_news_by_title
 string status_bar_notification_info_overflow
 string text
 style AlertDialog_AppCompat

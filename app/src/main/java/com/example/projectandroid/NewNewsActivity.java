@@ -1,5 +1,7 @@
 package com.example.projectandroid;
 
+
+import android.app.Notification;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -62,13 +64,18 @@ public class NewNewsActivity extends AppCompatActivity {
                 Toast.makeText(NewNewsActivity.this, "Content needs to have at least 20 characters", Toast.LENGTH_SHORT).show();
             } else {
                 News news = new News(user.getId(), titleInput.getText().toString(),contentInput.getText().toString(), new Date());
-                newsRepository.insertNews(news);
-                System.out.println("News added: " + news);
+                int newsId = newsRepository.insertNews(news);
+                sendNotificationsWithDeepLinks(newsId);
                 Toast.makeText(NewNewsActivity.this, "News added", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(NewNewsActivity.this, NewsFeedActivity.class);
                 startActivity(intent);
             }
         }
 
+    }
+
+
+    public void sendNotificationsWithDeepLinks(int newsId){
+        NotificationGenerator.openActivityNotification(this, newsId);
     }
 }

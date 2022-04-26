@@ -18,7 +18,7 @@ public class NewsDetailsActivity extends AppCompatActivity {
     User user; // login user
     NewsRepository newsRepository;
     UserRepository userRepository;
-
+    Button goBackToFeed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,5 +55,16 @@ public class NewsDetailsActivity extends AppCompatActivity {
         sendIntent.setType("text/plain");
         startActivity(sendIntent);
 
+
+        goBackToFeed = findViewById(R.id.backToFeed);
+
+        goBackToFeed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // redirect to NewsFeedActivity
+                Intent intent = new Intent(getApplicationContext(), NewsFeedActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

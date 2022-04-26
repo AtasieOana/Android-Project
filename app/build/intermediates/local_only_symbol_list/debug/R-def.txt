@@ -14,6 +14,7 @@ id NewsList
 id addButton
 id addNewsButton
 id addNewsTitle
+id backToFeed
 id contentInput
 id description
 id emailInput
@@ -30,6 +31,7 @@ id productPrice
 id recViewNews
 id registerButton
 id registerTitle
+id searchView
 id textContent
 id textTitle
 id textView
@@ -56,6 +58,7 @@ string enter_password
 string enter_the_content
 string enter_the_title
 string enter_username
+string go_back_to_feed
 string go_to_login
 string go_to_register
 string log_in
@@ -66,5 +69,6 @@ string news_feed_button
 string news_title
 string newslist
 string register
+string search_news_by_title
 string text
 style Theme.ProjectAndroid

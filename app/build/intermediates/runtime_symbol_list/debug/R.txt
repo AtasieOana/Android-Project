@@ -2637,6 +2637,7 @@ int id auto 0x7f080056
 int id autoComplete 0x7f080057
 int id autoCompleteToEnd 0x7f080058
 int id autoCompleteToStart 0x7f080059
+int id backToFeed 0x7f080202
 int id barrier 0x7f08005a
 int id baseline 0x7f08005b
 int id beginOnFirstDraw 0x7f08005c
@@ -2922,6 +2923,7 @@ int id scrollIndicatorDown 0x7f080169
 int id scrollIndicatorUp 0x7f08016a
 int id scrollView 0x7f08016b
 int id scrollable 0x7f08016c
+int id searchView 0x7f080201
 int id search_badge 0x7f08016d
 int id search_bar 0x7f08016e
 int id search_button 0x7f08016f
@@ -3306,6 +3308,7 @@ int string error_icon_content_description 0x7f0f0038
 int string exposed_dropdown_menu_content_description 0x7f0f0039
 int string fab_transformation_scrim_behavior 0x7f0f003a
 int string fab_transformation_sheet_behavior 0x7f0f003b
+int string go_back_to_feed 0x7f0f00ac
 int string go_to_login 0x7f0f00a1
 int string go_to_register 0x7f0f00a3
 int string hide_bottom_view_on_scroll_behavior 0x7f0f003c
@@ -3406,6 +3409,7 @@ int string path_password_eye_mask_visible 0x7f0f0099
 int string path_password_strike_through 0x7f0f009a
 int string register 0x7f0f00a2
 int string search_menu_title 0x7f0f009b
+int string search_news_by_title 0x7f0f00ab
 int string status_bar_notification_info_overflow 0x7f0f009c
 int string text 0x7f0f009d
 int style AlertDialog_AppCompat 0x7f100000

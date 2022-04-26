@@ -21,5 +21,7 @@
     <string name="add_news">Add news</string>
     <string name="enter_the_content">Enter the content</string>
     <string name="add_news_content">Add news content:</string>
+    <string name="search_news_by_title">Search news by title</string>
+    <string name="go_back_to_feed">Go back to feed</string>
     <string name="share">Share</string>
 </resources>

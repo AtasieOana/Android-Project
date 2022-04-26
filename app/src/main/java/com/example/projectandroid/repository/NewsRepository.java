@@ -48,14 +48,14 @@ public class NewsRepository {
                 java.util.Locale.getDefault()).parse(string);
 
     }
-    public void insertNews(News news) {
+    public int insertNews(News news) {
         ContentValues values = new ContentValues();
         values.put("user_id", news.getUserId());
         values.put("content", news.getContent());
         values.put("title", news.getTitle());
         values.put("created_at", dateToString(news.getCreatedAt()));
 
-        db.insert("NEWS_TABLE", null, values);
+        return (int) db.insert("NEWS_TABLE", null, values);
     }
 
     public News getNewsById(int id) throws ParseException {
