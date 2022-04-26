@@ -30,6 +30,7 @@ id productPrice
 id recViewNews
 id registerButton
 id registerTitle
+id searchView
 id textContent
 id textTitle
 id textView
@@ -66,5 +67,6 @@ string news_feed_button
 string news_title
 string newslist
 string register
+string search_news_by_title
 string text
 style Theme.ProjectAndroid
