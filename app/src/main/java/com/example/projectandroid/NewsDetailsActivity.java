@@ -46,5 +46,13 @@ public class NewsDetailsActivity extends AppCompatActivity {
         content = findViewById(R.id.productDescription);
         title.setText(news.getTitle());
         content.setText(news.getContent());
+
+
+
+        Intent sendIntent = new Intent();
+        sendIntent.setAction(Intent.ACTION_SEND);
+        sendIntent.putExtra(Intent.EXTRA_TEXT, "This is my text to send.");
+        sendIntent.setType("text/plain");
+        startActivity(sendIntent);
     }
 }
