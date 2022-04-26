@@ -1,5 +1,6 @@
 package com.example.projectandroid;
 
+import android.view.View;
 import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -18,7 +19,7 @@ public class NewsDetailsActivity extends AppCompatActivity {
     User user; // login user
     NewsRepository newsRepository;
     UserRepository userRepository;
-
+    Button goBackToFeed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,5 +47,16 @@ public class NewsDetailsActivity extends AppCompatActivity {
         content = findViewById(R.id.productDescription);
         title.setText(news.getTitle());
         content.setText(news.getContent());
+
+        goBackToFeed = findViewById(R.id.backToFeed);
+
+        goBackToFeed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // redirect to NewsFeedActivity
+                Intent intent = new Intent(getApplicationContext(), NewsFeedActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
