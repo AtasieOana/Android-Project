@@ -39,7 +39,7 @@
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="336dp"
         android:text="@string/add_news_content"
         android:textColor="#000000"
@@ -55,6 +55,15 @@
         app:layout_constraintStart_toEndOf="@+id/description"
         app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="485dp" android:textColor="#000000"/>
 
-
+    <Button
+        android:id="@+id/Share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:text="@string/share"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
