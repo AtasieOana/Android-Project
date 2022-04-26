@@ -1,5 +1,6 @@
 package com.example.projectandroid;
 
+import android.view.View;
 import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -19,6 +20,7 @@ public class NewsDetailsActivity extends AppCompatActivity {
     NewsRepository newsRepository;
     UserRepository userRepository;
     Button goBackToFeed;
+    Button shareButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,14 +49,16 @@ public class NewsDetailsActivity extends AppCompatActivity {
         title.setText(news.getTitle());
         content.setText(news.getContent());
 
+        String content1 = news.getContent();
 
+        shareButton = findViewById(R.id.Share);
 
-        Intent sendIntent = new Intent();
-        sendIntent.setAction(Intent.ACTION_SEND);
-        sendIntent.putExtra(Intent.EXTRA_TEXT, news.getContent());
-        sendIntent.setType("text/plain");
-        startActivity(sendIntent);
-
+        shareButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                share(content1);
+            }
+        });
 
         goBackToFeed = findViewById(R.id.backToFeed);
 
@@ -67,4 +71,17 @@ public class NewsDetailsActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void share(String x) {
+
+        Intent sendIntent = new Intent();
+        sendIntent.setAction(Intent.ACTION_SEND);
+        sendIntent.putExtra(Intent.EXTRA_TEXT, x);
+        sendIntent.setType("text/plain");
+        startActivity(sendIntent);
+
+    }
 }
+
+
+
