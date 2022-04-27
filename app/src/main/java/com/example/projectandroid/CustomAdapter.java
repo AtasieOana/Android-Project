@@ -42,8 +42,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
 
     public void filterList(ArrayList<News> newsFiltered) {
         newsArrayList = newsFiltered;
-        System.out.println(newsFiltered);
-        System.out.println(newsArrayList);
         notifyDataSetChanged();
     }
 

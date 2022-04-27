@@ -24,4 +24,6 @@
     <string name="search_news_by_title">Search news by title</string>
     <string name="go_back_to_feed">Go back to feed</string>
     <string name="share">Share</string>
+    <string name="add_news_photo">Add news photo</string>
+    <string name="news_photo">News photo</string>
 </resources>

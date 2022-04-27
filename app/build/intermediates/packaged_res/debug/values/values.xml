@@ -10,6 +10,7 @@
     <string name="add_a_news">ADD A NEWS</string>
     <string name="add_news">Add news</string>
     <string name="add_news_content">Add news content:</string>
+    <string name="add_news_photo">Add news photo</string>
     <string name="add_news_title">Add news title:</string>
     <string name="app_name">ProjectAndroid</string>
     <string name="author_name">Author name</string>
@@ -26,6 +27,7 @@
     <string name="news">NEWS</string>
     <string name="news_feed">NEWS FEED</string>
     <string name="news_feed_button">News feed</string>
+    <string name="news_photo">News photo</string>
     <string name="news_title">News Title</string>
     <string name="newslist">NewsList</string>
     <string name="register">REGISTER</string>

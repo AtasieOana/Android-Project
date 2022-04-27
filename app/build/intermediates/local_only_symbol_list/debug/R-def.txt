@@ -10,6 +10,7 @@ color white
 drawable google
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_photo_add
 id NewsList
 id Share
 id addButton
@@ -20,6 +21,7 @@ id contentInput
 id description
 id emailInput
 id goToRegisterButton
+id imageNews
 id layoutNewsFragment
 id loginTitle
 id newsAuthor
@@ -34,6 +36,7 @@ id registerButton
 id registerTitle
 id searchView
 id textContent
+id textImage
 id textTitle
 id textView
 id titleInput
@@ -46,11 +49,15 @@ layout activity_register
 layout news_details
 layout news_fragment
 layout news_layout_in_list
+mipmap ic_empty_picture
+mipmap ic_empty_picture_foreground
+mipmap ic_empty_picture_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 string add_a_news
 string add_news
 string add_news_content
+string add_news_photo
 string add_news_title
 string app_name
 string author_name
@@ -67,6 +74,7 @@ string login
 string news
 string news_feed
 string news_feed_button
+string news_photo
 string news_title
 string newslist
 string register

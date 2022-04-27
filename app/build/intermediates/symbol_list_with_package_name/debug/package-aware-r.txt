@@ -2500,6 +2500,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_photo_add
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2773,6 +2774,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageNews
 id immediateStop
 id included
 id info
@@ -2999,6 +3001,7 @@ id text
 id text2
 id textContent
 id textEnd
+id textImage
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3238,6 +3241,9 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu example_menu
 menu example_menu2
+mipmap ic_empty_picture
+mipmap ic_empty_picture_foreground
+mipmap ic_empty_picture_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3271,6 +3277,7 @@ string abc_toolbar_collapse_description
 string add_a_news
 string add_news
 string add_news_content
+string add_news_photo
 string add_news_title
 string androidx_startup
 string app_name
@@ -3402,6 +3409,7 @@ string mtrl_timepicker_confirm
 string news
 string news_feed
 string news_feed_button
+string news_photo
 string news_title
 string newslist
 string password_toggle_content_description

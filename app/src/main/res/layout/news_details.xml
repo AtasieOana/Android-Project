@@ -23,9 +23,10 @@
         android:layout_height="270dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="128dp"
+        android:contentDescription="@string/news_photo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        tools:srcCompat="@android:drawable/ic_menu_gallery" />
 
     <TextView
         android:layout_width="wrap_content"

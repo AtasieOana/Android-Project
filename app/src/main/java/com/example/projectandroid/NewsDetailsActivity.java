@@ -1,13 +1,16 @@
 package com.example.projectandroid;
 
+import android.graphics.Bitmap;
 import android.view.View;
 import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import com.example.projectandroid.models.News;
+import com.example.projectandroid.models.NewsImage;
 import com.example.projectandroid.models.User;
 import com.example.projectandroid.repository.NewsRepository;
+import com.example.projectandroid.repository.NewsImageRepository;
 import com.example.projectandroid.repository.UserRepository;
 
 import java.text.ParseException;
@@ -19,6 +22,8 @@ public class NewsDetailsActivity extends AppCompatActivity {
     User user; // login user
     NewsRepository newsRepository;
     UserRepository userRepository;
+    NewsImageRepository newsImageRepository;
+
     Button goBackToFeed;
     Button shareButton;
 
@@ -29,6 +34,7 @@ public class NewsDetailsActivity extends AppCompatActivity {
 
         userRepository = new UserRepository(this);
         newsRepository = new NewsRepository(this);
+        newsImageRepository = new NewsImageRepository(this);
 
         SessionManagement sessionManagement = new SessionManagement(NewsDetailsActivity.this);
         String emailUser = sessionManagement.getSession();
@@ -44,10 +50,22 @@ public class NewsDetailsActivity extends AppCompatActivity {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+
+        NewsImage newsImage = newsImageRepository.getPhotoByNewsId(newsId);
         title = findViewById(R.id.newsTitle);
         content = findViewById(R.id.productDescription);
+        image = findViewById(R.id.productPhoto);
+
         title.setText(news.getTitle());
         content.setText(news.getContent());
+
+        if(newsImage != null && newsImage.getImage() != null){
+            image.setImageBitmap(newsImage.getImage());
+        }
+        else{
+            image.setImageResource(android.R.drawable.ic_menu_gallery);
+
+        }
 
         String content1 = news.getContent();
 

@@ -1,19 +1,27 @@
 package com.example.projectandroid;
 
 
-import android.app.Notification;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.content.res.AppCompatResources;
 
 import com.example.projectandroid.models.News;
+import com.example.projectandroid.models.NewsImage;
 import com.example.projectandroid.models.User;
 import com.example.projectandroid.repository.NewsRepository;
+import com.example.projectandroid.repository.NewsImageRepository;
 import com.example.projectandroid.repository.UserRepository;
 
 import java.util.Date;
@@ -24,7 +32,10 @@ public class NewNewsActivity extends AppCompatActivity {
     Button addNewsButton;
     UserRepository userRepository;
     NewsRepository newsRepository;
+    NewsImageRepository newsImageRepository;
     User user;
+    ImageView imageView;
+    private static final int PICK_IMAGE_REQUEST=1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,14 +45,29 @@ public class NewNewsActivity extends AppCompatActivity {
         titleInput = findViewById(R.id.titleInput);
         contentInput = findViewById(R.id.contentInput);
         addNewsButton = findViewById(R.id.addNewsButton);
+        imageView = findViewById(R.id.imageNews);
 
         userRepository = new UserRepository(this);
         newsRepository = new NewsRepository(this);
+        newsImageRepository = new NewsImageRepository(this);
+
+        System.out.println("te rog");
+
 
         SessionManagement sessionManagement = new SessionManagement(NewNewsActivity.this);
         String emailUser = sessionManagement.getSession();
 
         user = userRepository.getUserByEmail(emailUser);
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivityForResult(takePictureIntent, 1);
+
+                }            }
+        });
 
         addNewsButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,6 +92,12 @@ public class NewNewsActivity extends AppCompatActivity {
                 News news = new News(user.getId(), titleInput.getText().toString(),contentInput.getText().toString(), new Date());
                 int newsId = newsRepository.insertNews(news);
                 sendNotificationsWithDeepLinks(newsId);
+                System.out.println("merge");
+                if(hasImage(imageView, "not_empty_image")){
+                    Bitmap image = ((BitmapDrawable)imageView.getDrawable()).getBitmap();
+                    NewsImage newsImage = new NewsImage(newsId, image);
+                    newsImageRepository.insertPhoto(newsImage);
+                }
                 Toast.makeText(NewNewsActivity.this, "News added", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(NewNewsActivity.this, NewsFeedActivity.class);
                 startActivity(intent);
@@ -74,8 +106,27 @@ public class NewNewsActivity extends AppCompatActivity {
 
     }
 
-
     public void sendNotificationsWithDeepLinks(int newsId){
         NotificationGenerator.openActivityNotification(this, newsId);
+    }
+
+    
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == PICK_IMAGE_REQUEST && resultCode == RESULT_OK) {
+            Bundle extras = data.getExtras();
+            Bitmap bitmap = (Bitmap) extras.get("data");
+            imageView.setImageBitmap(bitmap);
+            imageView.setTag("not_empty_image");
+        }
+    }
+
+    private boolean hasImage(@NonNull ImageView view, String tag) {
+
+        String previousTag = (String) view.getTag();
+        return previousTag.equalsIgnoreCase(tag);
+
+
     }
 }

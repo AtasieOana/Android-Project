@@ -14,120 +14,127 @@
 11-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:5:5-67
 11-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:5:22-64
 12
-13    <application
-13-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:7:5-31:19
-14        android:allowBackup="true"
-14-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:8:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.7.0] C:\Users\Diana\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-16        android:debuggable="true"
-17        android:hardwareAccelerated="true"
-17-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:13:9-43
-18        android:icon="@mipmap/ic_launcher"
-18-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:9:9-43
-19        android:label="@string/app_name"
-19-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:10:9-41
-20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:11:9-54
-21        android:supportsRtl="true"
-21-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:12:9-35
-22        android:testOnly="true"
-23        android:theme="@style/Theme.ProjectAndroid" >
-23-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:14:9-52
-24        <activity android:name="com.example.projectandroid.NewsFeedActivity" />
-24-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:16:9-54
-24-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:16:19-51
-25        <activity
-25-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:17:9-25:20
-26            android:name="com.example.projectandroid.LoginActivity"
-26-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:18:13-42
-27            android:exported="true" >
-27-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:19:13-36
-28            <intent-filter>
-28-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:20:13-24:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:21:17-69
-29-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:21:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:23:17-77
-31-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:23:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity android:name="com.example.projectandroid.RegisterActivity" />
-34-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:26:9-53
-34-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:26:19-51
-35        <activity android:name="com.example.projectandroid.NewNewsActivity" />
-35-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:27:9-52
-35-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:27:19-50
-36        <activity android:name="com.example.projectandroid.NewsDetailsActivity" />
-36-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:28:9-56
-36-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:28:19-54
-37        <activity android:name="com.example.projectandroid.MainActivity" />
-37-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:29:9-50
-37-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:29:19-47
-38        <activity
-38-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75
-39            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-39-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:24:13-93
-40            android:excludeFromRecents="true"
-40-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:25:13-46
-41            android:exported="false"
-41-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:26:13-37
-42            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-42-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:27:13-72
-43        <!--
-44            Service handling Google Sign-In user revocation. For apps that do not integrate with
-45            Google Sign-In, this service will never be started.
-46        -->
-47        <service
-47-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:33:9-37:51
-48            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-48-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:34:13-89
-49            android:exported="true"
-49-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:35:13-36
-50            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-50-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:36:13-107
-51            android:visibleToInstantApps="true" />
-51-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:37:13-48
-52
-53        <activity
-53-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Diana\.gradle\caches\transforms-3\c6e76a880633cf92f5f1ad558a3993d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-54            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-54-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Diana\.gradle\caches\transforms-3\c6e76a880633cf92f5f1ad558a3993d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-55            android:exported="false"
-55-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Diana\.gradle\caches\transforms-3\c6e76a880633cf92f5f1ad558a3993d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-56-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Diana\.gradle\caches\transforms-3\c6e76a880633cf92f5f1ad558a3993d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-57
-58        <meta-data
-58-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Diana\.gradle\caches\transforms-3\b8a5f4095fee31c403c47d4a0721106f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-59            android:name="com.google.android.gms.version"
-59-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Diana\.gradle\caches\transforms-3\b8a5f4095fee31c403c47d4a0721106f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-60            android:value="@integer/google_play_services_version" />
-60-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Diana\.gradle\caches\transforms-3\b8a5f4095fee31c403c47d4a0721106f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+13    <uses-feature
+13-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:6:5-84
+14        android:name="android.hardware.camera"
+14-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:6:19-57
+15        android:required="true" />
+15-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:6:58-81
+16
+17    <application
+17-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:8:5-32:19
+18        android:allowBackup="true"
+18-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:9:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] C:\Users\Diana\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:hardwareAccelerated="true"
+21-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:14:9-43
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:10:9-43
+23        android:label="@string/app_name"
+23-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:11:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:12:9-54
+25        android:supportsRtl="true"
+25-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:13:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.ProjectAndroid" >
+27-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:15:9-52
+28        <activity android:name="com.example.projectandroid.NewsFeedActivity" />
+28-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:17:9-54
+28-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:17:19-51
+29        <activity
+29-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:18:9-26:20
+30            android:name="com.example.projectandroid.LoginActivity"
+30-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:19:13-42
+31            android:exported="true" >
+31-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:20:13-36
+32            <intent-filter>
+32-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:21:13-25:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:22:17-69
+33-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:22:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:24:17-77
+35-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:24:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.example.projectandroid.RegisterActivity" />
+38-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:27:9-53
+38-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:27:19-51
+39        <activity android:name="com.example.projectandroid.NewNewsActivity" />
+39-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:28:9-52
+39-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:28:19-50
+40        <activity android:name="com.example.projectandroid.NewsDetailsActivity" />
+40-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:29:9-56
+40-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:29:19-54
+41        <activity android:name="com.example.projectandroid.MainActivity" />
+41-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:30:9-50
+41-->D:\Facultate\Anul III\Semestrul 2\Programarea dispozitivelor mobile in Android\Proiect\app\src\main\AndroidManifest.xml:30:19-47
+42        <activity
+42-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75
+43            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+43-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:24:13-93
+44            android:excludeFromRecents="true"
+44-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:25:13-46
+45            android:exported="false"
+45-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:26:13-37
+46            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+46-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:27:13-72
+47        <!--
+48            Service handling Google Sign-In user revocation. For apps that do not integrate with
+49            Google Sign-In, this service will never be started.
+50        -->
+51        <service
+51-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:33:9-37:51
+52            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+52-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:34:13-89
+53            android:exported="true"
+53-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:35:13-36
+54            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+54-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:36:13-107
+55            android:visibleToInstantApps="true" />
+55-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Diana\.gradle\caches\transforms-3\77e8fe43353d6673b4b90c080acf9b24\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:37:13-48
+56
+57        <activity
+57-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Diana\.gradle\caches\transforms-3\c6e76a880633cf92f5f1ad558a3993d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+58-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Diana\.gradle\caches\transforms-3\c6e76a880633cf92f5f1ad558a3993d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+59            android:exported="false"
+59-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Diana\.gradle\caches\transforms-3\c6e76a880633cf92f5f1ad558a3993d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Diana\.gradle\caches\transforms-3\c6e76a880633cf92f5f1ad558a3993d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 61
-62        <provider
-62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-63            android:name="androidx.startup.InitializationProvider"
-63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-64            android:authorities="com.example.proiectandroid.androidx-startup"
-64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-65            android:exported="false" >
-65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-66            <meta-data
-66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-68                android:value="androidx.startup" />
-68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-69            <meta-data
-69-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Diana\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-70-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Diana\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-71                android:value="androidx.startup" />
-71-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Diana\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-72        </provider>
-73    </application>
-74
-75</manifest>
+62        <meta-data
+62-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Diana\.gradle\caches\transforms-3\b8a5f4095fee31c403c47d4a0721106f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+63            android:name="com.google.android.gms.version"
+63-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Diana\.gradle\caches\transforms-3\b8a5f4095fee31c403c47d4a0721106f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+64            android:value="@integer/google_play_services_version" />
+64-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Diana\.gradle\caches\transforms-3\b8a5f4095fee31c403c47d4a0721106f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+65
+66        <provider
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+67            android:name="androidx.startup.InitializationProvider"
+67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+68            android:authorities="com.example.proiectandroid.androidx-startup"
+68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+69            android:exported="false" >
+69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+70            <meta-data
+70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+72                android:value="androidx.startup" />
+72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Diana\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+73            <meta-data
+73-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Diana\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Diana\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+75                android:value="androidx.startup" />
+75-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Diana\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+76        </provider>
+77    </application>
+78
+79</manifest>

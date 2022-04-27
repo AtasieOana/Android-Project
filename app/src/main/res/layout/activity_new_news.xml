@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    tools:context=".NewNewsActivity"
     tools:ignore="LabelFor"
     >
 
@@ -16,19 +18,18 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:layout_width="fill_parent"
-        android:layout_margin="60dp"
+        android:layout_margin="50dp"
         />
 
     <TextView
         android:id="@+id/textTitle"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
         android:text="@string/add_news_title"
         android:textColor="#000000"
-        android:textSize="22sp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginStart="30dp"
-        android:layout_width="fill_parent"
-        />
+        android:textSize="22sp" />
 
     <EditText
         android:id="@+id/titleInput"
@@ -43,7 +44,7 @@
         android:textSize="24sp"
         android:layout_marginEnd="30dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop = "30dp"
+        android:layout_marginTop = "20dp"
         android:layout_width="fill_parent" />
 
     <TextView
@@ -54,7 +55,7 @@
         android:textSize="22sp"
         android:layout_marginEnd="30dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop = "30dp"
+        android:layout_marginTop = "20dp"
         android:layout_width="fill_parent" />
 
     <EditText
@@ -71,8 +72,29 @@
         android:textSize="24sp"
         android:layout_marginEnd="30dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop = "30dp"
+        android:layout_marginTop = "20dp"
         android:layout_width="fill_parent" />
+
+    <TextView
+        android:id="@+id/textImage"
+        android:layout_height="wrap_content"
+        android:text="@string/add_news_photo"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop = "20dp"
+        android:layout_width="fill_parent" />
+
+    <ImageView
+        android:id="@+id/imageNews"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_photo_add"
+        android:contentDescription="@string/add_news_photo"
+        android:tag="empty_image"
+        />
+
 
     <Button
         android:id="@+id/addNewsButton"
@@ -84,5 +106,7 @@
         android:layout_width="fill_parent"
         android:textSize="20sp"
         />
+
+
 
 </LinearLayout>
