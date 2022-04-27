@@ -2558,6 +2558,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id Share
 id TOP_END
 id TOP_START
 id accelerate
@@ -3411,6 +3412,7 @@ string path_password_strike_through
 string register
 string search_menu_title
 string search_news_by_title
+string share
 string status_bar_notification_info_overflow
 string text
 style AlertDialog_AppCompat

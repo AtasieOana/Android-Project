@@ -64,18 +64,7 @@ public class NewsFeedActivity extends AppCompatActivity{
     }
 
     private void filter(String text, NewsFragment newsFragment) {
-        ArrayList<News> filteredList = new ArrayList<>();
-
-        for (News item : newsFragment.getNewsList()) {
-            if (item.getTitle().toLowerCase().contains(text.toLowerCase())) {
-                filteredList.add(item);
-            }
-        }
-
-        if (filteredList.isEmpty()) {
-            Toast.makeText(this, "No Data Found...", Toast.LENGTH_SHORT).show();
-        }
-        newsFragment.adapter.filterList(filteredList);
+        newsFragment.filter(text);
     }
 
 }

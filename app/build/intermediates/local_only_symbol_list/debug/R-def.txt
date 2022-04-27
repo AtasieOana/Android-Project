@@ -11,6 +11,7 @@ drawable google
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id NewsList
+id Share
 id addButton
 id addNewsButton
 id addNewsTitle
@@ -70,5 +71,6 @@ string news_title
 string newslist
 string register
 string search_news_by_title
+string share
 string text
 style Theme.ProjectAndroid

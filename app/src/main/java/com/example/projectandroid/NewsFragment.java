@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SearchView;
+import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -72,5 +73,21 @@ public class NewsFragment extends Fragment implements CustomAdapter.OnItemListen
         Intent intent = new Intent(getContext(), NewsDetailsActivity.class);
         intent.putExtra("newsId",news.getId());
         requireContext().startActivity(intent);    }
+
+    public void filter(String text) {
+        ArrayList<News> filteredList = new ArrayList<>();
+
+        for (News item : newsList) {
+            if (item.getTitle().toLowerCase().contains(text.toLowerCase())) {
+                filteredList.add(item);
+            }
+        }
+
+        if (filteredList.isEmpty()) {
+            Toast.makeText(getContext(), "No Data Found...", Toast.LENGTH_SHORT).show();
+        }
+        adapter.filterList(filteredList);
+    }
+
 }
 
