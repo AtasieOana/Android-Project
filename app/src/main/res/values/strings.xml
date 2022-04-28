@@ -26,4 +26,6 @@
     <string name="share">Share</string>
     <string name="add_news_photo">Add news photo</string>
     <string name="news_photo">News photo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

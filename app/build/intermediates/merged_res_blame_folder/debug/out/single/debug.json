@@ -1,5 +1,13 @@
 [
     {
+        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\xml_motion_scene.xml.flat",
+        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\xml\\motion_scene.xml"
+    },
+    {
+        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\drawable_news.xml.flat",
+        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\drawable\\news.xml"
+    },
+    {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_empty_picture_round.png.flat",
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_empty_picture_round.png"
     },
@@ -8,8 +16,16 @@
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xhdpi\\ic_empty_picture_round.png"
     },
     {
+        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_motion_layout.xml.flat",
+        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\motion_layout.xml"
+    },
+    {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_empty_picture.png.flat",
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-mdpi\\ic_empty_picture.png"
+    },
+    {
+        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_animation.xml.flat",
+        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\fragment_animation.xml"
     },
     {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_empty_picture_round.png.flat",
@@ -32,12 +48,12 @@
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_news_details.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\news_details.xml"
-    },
-    {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_new_news.xml.flat",
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\activity_new_news.xml"
+    },
+    {
+        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_news_details.xml.flat",
+        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\news_details.xml"
     },
     {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_empty_picture_foreground.png.flat",
@@ -140,16 +156,16 @@
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_empty_picture_foreground.png.flat",
+        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xhdpi\\ic_empty_picture_foreground.png"
+    },
+    {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\drawable_google.png.flat",
         "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\drawable\\google.png"
-    },
-    {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_empty_picture_foreground.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xhdpi\\ic_empty_picture_foreground.png"
     },
     {
         "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",

@@ -25,8 +25,12 @@ public class NewsFeedActivity extends AppCompatActivity{
         setContentView(R.layout.activity_news_feed);
 
         NewsFragment newsFragment =  NewsFragment.newInstance();
+
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.layoutNewsFragment,newsFragment,"news_fragment");
+
+        AnimationFragment animationFragment =  AnimationFragment.newInstance();
+        transaction.replace(R.id.animationFragment,animationFragment,"anim_fragment");
         transaction.commit();
 
         addNewsButton = findViewById(R.id.addButton);
