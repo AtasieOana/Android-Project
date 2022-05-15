@@ -47,6 +47,16 @@ public class NewsFeedActivity extends AppCompatActivity{
         });
 
         initSearch(newsFragment);
+
+        Button button1;
+        button1 = findViewById(R.id.animation);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), MotionAnimation.class);
+                startActivity(i);
+            }
+        });
     }
 
 
@@ -66,6 +76,8 @@ public class NewsFeedActivity extends AppCompatActivity{
             }
         });
     }
+
+
 
     private void filter(String text, NewsFragment newsFragment) {
         newsFragment.filter(text);
