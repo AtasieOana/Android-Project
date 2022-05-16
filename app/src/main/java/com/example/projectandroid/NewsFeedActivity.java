@@ -2,15 +2,18 @@ package com.example.projectandroid;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.projectandroid.models.News;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 
@@ -18,6 +21,7 @@ import java.util.ArrayList;
 public class NewsFeedActivity extends AppCompatActivity{
 
     Button addNewsButton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +61,28 @@ public class NewsFeedActivity extends AppCompatActivity{
                 startActivity(i);
             }
         });
+
+        BottomNavigationView bottomNavigationView=findViewById(R.id.bottom_navigation);
+        bottomNavigationView.setSelectedItemId(R.id.feed);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                switch(item.getItemId())
+                {
+                    case R.id.feed:
+                        startActivity(new Intent(getApplicationContext(),NewsFeedActivity.class));
+                        overridePendingTransition(0,0);
+                        return true;
+                    case R.id.logout:
+                        return true;
+                }
+                return false;
+            }
+        });
     }
+
 
 
     private void initSearch(NewsFragment newsFragment){

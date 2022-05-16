@@ -1,8 +1,11 @@
 package com.example.projectandroid;
 
 import android.graphics.Bitmap;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.*;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +15,7 @@ import com.example.projectandroid.models.User;
 import com.example.projectandroid.repository.NewsRepository;
 import com.example.projectandroid.repository.NewsImageRepository;
 import com.example.projectandroid.repository.UserRepository;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.text.ParseException;
 
@@ -86,6 +90,25 @@ public class NewsDetailsActivity extends AppCompatActivity {
                 // redirect to NewsFeedActivity
                 Intent intent = new Intent(getApplicationContext(), NewsFeedActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        BottomNavigationView bottomNavigationView=findViewById(R.id.bottom_navigation);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                switch(item.getItemId())
+                {
+                    case R.id.feed:
+                        startActivity(new Intent(getApplicationContext(),NewsFeedActivity.class));
+                        overridePendingTransition(0,0);
+                        return true;
+                    case R.id.logout:
+                        return true;
+                }
+                return false;
             }
         });
     }
