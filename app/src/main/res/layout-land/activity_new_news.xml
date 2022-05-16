@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollDetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".NewNewsActivity"
+    tools:ignore="LabelFor"
+    >
+
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/add_news_title"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/titleInput"
+        android:layout_height="52dp"
+        android:autofillHints="News title"
+        android:ems="10"
+        android:hint="@string/enter_the_title"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#757575"
+        android:textSize="24sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop = "20dp"
+        android:layout_width="fill_parent" />
+
+    <TextView
+        android:id="@+id/textContent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_news_content"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop = "20dp"
+        android:layout_width="fill_parent" />
+
+    <EditText
+        android:id="@+id/contentInput"
+        android:layout_height="52dp"
+        android:autofillHints="News content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/enter_the_content"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#757575"
+        android:textSize="24sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop = "20dp"
+        android:layout_width="fill_parent" />
+
+    <TextView
+        android:id="@+id/textImage"
+        android:layout_height="wrap_content"
+        android:text="@string/add_news_photo"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop = "20dp"
+        android:layout_width="fill_parent" />
+
+    <ImageView
+        android:id="@+id/imageNews"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_photo_add"
+        android:contentDescription="@string/add_news_photo"
+        android:tag="empty_image"
+        />
+
+    <Button
+        android:id="@+id/addNewsButton"
+        android:layout_height="wrap_content"
+        android:text="@string/add_news"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop = "30dp"
+        android:layout_width="fill_parent"
+        android:textSize="20sp"
+        />
+    <FrameLayout
+        android:id="@+id/layoutAnimationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_marginTop = "30dp"
+        android:layout_height="wrap_content"
+        app:menu="@menu/navigation_menu"/>
+
+    </FrameLayout>
+
+</LinearLayout>
+</ScrollView>

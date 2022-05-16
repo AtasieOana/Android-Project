@@ -28,6 +28,7 @@
         <activity android:name=".NewNewsActivity"/>
         <activity android:name=".NewsDetailsActivity"/>
         <activity android:name=".MainActivity" />
+        <activity android:name=".MotionAnimation" />
 
     </application>
 </manifest>

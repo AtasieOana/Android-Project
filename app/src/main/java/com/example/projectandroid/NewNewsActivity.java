@@ -4,7 +4,6 @@ package com.example.projectandroid;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.MenuItem;
@@ -16,7 +15,6 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.content.res.AppCompatResources;
 
 import com.example.projectandroid.models.News;
 import com.example.projectandroid.models.NewsImage;
@@ -52,9 +50,6 @@ public class NewNewsActivity extends AppCompatActivity {
         userRepository = new UserRepository(this);
         newsRepository = new NewsRepository(this);
         newsImageRepository = new NewsImageRepository(this);
-
-        System.out.println("te rog");
-
 
         SessionManagement sessionManagement = new SessionManagement(NewNewsActivity.this);
         String emailUser = sessionManagement.getSession();

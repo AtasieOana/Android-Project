@@ -34,8 +34,6 @@ public class NewsFeedActivity extends AppCompatActivity{
 
         SessionManagement sessionManagement = new SessionManagement(getApplicationContext());
         String emailUser = sessionManagement.getSession();
-        System.out.println("merge " + emailUser);
-
 
         if (emailUser == null){
             Intent i = new Intent(getApplicationContext(), LoginActivity.class);

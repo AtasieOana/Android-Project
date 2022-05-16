@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:strokeWidth="1dp"
+        app:strokeColor="@color/purple_500"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/news_title"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:id="@+id/newsTitle"
+                android:layout_margin="8dp"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/newsAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="end"
+                android:text="@string/author_name"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:textStyle="italic|bold" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollNews"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/registerTitle"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/register"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_margin="60dp"
+        />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_height="wrap_content"
+        android:autofillHints="email@gmail.com"
+        android:ems="10"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="fill_parent"
+        />
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_height="wrap_content"
+        android:autofillHints="username"
+        android:ems="10"
+        android:hint="@string/enter_username"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop = "30dp"
+        android:layout_width="fill_parent" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_height="wrap_content"
+        android:autofillHints="password123"
+        android:ems="10"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop = "30dp"
+        android:layout_width="fill_parent" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop = "30dp"
+        android:layout_width="fill_parent"
+        android:textSize="20sp"
+        android:text="@string/register"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/goToRegisterButton"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop = "30dp"
+        android:layout_width="fill_parent"
+        android:textSize="20sp"
+        android:text="@string/go_to_login"
+       />
+</LinearLayout>
+</ScrollView>
