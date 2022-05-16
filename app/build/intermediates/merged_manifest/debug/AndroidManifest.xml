@@ -39,6 +39,7 @@
         <activity android:name="com.example.projectandroid.NewNewsActivity" />
         <activity android:name="com.example.projectandroid.NewsDetailsActivity" />
         <activity android:name="com.example.projectandroid.MainActivity" />
+        <activity android:name="com.example.projectandroid.MotionAnimation" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
