@@ -82,16 +82,6 @@ public class NewsDetailsActivity extends AppCompatActivity {
             }
         });
 
-        goBackToFeed = findViewById(R.id.backToFeed);
-
-        goBackToFeed.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // redirect to NewsFeedActivity
-                Intent intent = new Intent(getApplicationContext(), NewsFeedActivity.class);
-                startActivity(intent);
-            }
-        });
 
         BottomNavigationView bottomNavigationView=findViewById(R.id.bottom_navigation);
 
@@ -106,6 +96,14 @@ public class NewsDetailsActivity extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.logout:
+                        SessionManagement sessionManagement = new SessionManagement(getApplicationContext());
+                        sessionManagement.removeSession();
+                        Intent i = new Intent(getApplicationContext(), LoginActivity.class);
+                        startActivity(i);
+                        return true;
+                    case R.id.add:
+                        startActivity(new Intent(getApplicationContext(),NewNewsActivity.class));
+                        overridePendingTransition(0,0);
                         return true;
                 }
                 return false;

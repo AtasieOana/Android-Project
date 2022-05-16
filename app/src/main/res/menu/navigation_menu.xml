@@ -2,13 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/feed"
-        android:title="Feed"
+        android:id="@+id/add"
+        android:title="Add News"
+        android:icon="@drawable/ic_add"
         />
+
+    <item
+        android:id="@+id/feed"
+        android:title="News Feed"
+        android:icon="@drawable/ic_feed"
+        />
+
     <item
         android:id="@+id/logout"
         android:title="Logout"
+        android:icon="@drawable/ic_logout"
         />
-
 
 </menu>

@@ -2494,10 +2494,13 @@ drawable design_snackbar_background
 drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_add
 drawable ic_clock_black_24dp
+drawable ic_feed
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logout
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2638,6 +2641,7 @@ id allStates
 id always
 id animateToEnd
 id animateToStart
+id animation
 id animationFragment
 id antiClockwise
 id anticipate
@@ -2648,7 +2652,6 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
-id backToFeed
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2656,6 +2659,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottom_navigation
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2751,6 +2755,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id feed
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2802,6 +2807,7 @@ id jumpToStart
 id labeled
 id layout
 id layoutAnimationFragment
+id layoutFrame
 id layoutNewsFragment
 id left
 id leftToRight
@@ -2813,6 +2819,7 @@ id linear
 id listMode
 id list_item
 id loginTitle
+id logout
 id masked
 id match_constraint
 id match_parent
@@ -3268,6 +3275,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu example_menu
 menu example_menu2
+menu navigation_menu
 mipmap ic_empty_picture
 mipmap ic_empty_picture_foreground
 mipmap ic_empty_picture_round
@@ -3434,6 +3442,8 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string mtrl_timepicker_confirm
+string nav_close
+string nav_open
 string news
 string news_feed
 string news_feed_button

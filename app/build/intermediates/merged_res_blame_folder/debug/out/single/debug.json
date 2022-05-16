@@ -1,182 +1,198 @@
 [
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\xml_motion_scene.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\xml\\motion_scene.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\drawable_news.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\drawable\\news.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_empty_picture.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_empty_picture.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_empty_picture_round.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_empty_picture_round.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_news_feed.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\layout\\activity_news_feed.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_empty_picture_round.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xhdpi\\ic_empty_picture_round.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\xml_motion_scene.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\xml\\motion_scene.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_motion_layout.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\motion_layout.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_empty_picture.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-mdpi\\ic_empty_picture.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_empty_picture_foreground.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_empty_picture_foreground.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_animation.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\fragment_animation.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\layout_news_layout_in_list.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\layout\\news_layout_in_list.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_empty_picture_round.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-mdpi\\ic_empty_picture_round.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_empty_picture_foreground.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_empty_picture_foreground.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_empty_picture_round.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-hdpi\\ic_empty_picture_round.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_empty_picture.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xhdpi\\ic_empty_picture.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_empty_picture_round.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_empty_picture_round.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\menu_navigation_menu.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\menu\\navigation_menu.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_new_news.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\activity_new_news.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_news_details.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\news_details.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_google.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\drawable\\google.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_empty_picture_foreground.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_empty_picture_foreground.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\layout_news_fragment.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\layout\\news_fragment.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_empty_picture.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-hdpi\\ic_empty_picture.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_empty_picture_round.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_empty_picture_round.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_empty_picture_foreground.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_empty_picture_foreground.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_empty_picture_foreground.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-hdpi\\ic_empty_picture_foreground.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_empty_picture.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_empty_picture.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_new_news.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\layout\\activity_new_news.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_empty_picture_foreground.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_empty_picture_foreground.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_news.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\drawable\\news.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_empty_picture_round.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_empty_picture_round.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_news_layout_in_list.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\news_layout_in_list.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_empty_picture.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_empty_picture.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_empty_picture_round.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_empty_picture_round.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_empty_picture.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_empty_picture.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_news_fragment.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\news_fragment.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_empty_picture_round.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_empty_picture_round.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\drawable\\ic_logout.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_empty_picture_round.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_empty_picture_round.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_empty_picture_foreground.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_empty_picture_foreground.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_empty_picture.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_empty_picture.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_animation.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\layout\\fragment_animation.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_empty_picture.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_empty_picture.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_empty_picture_foreground.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_empty_picture_foreground.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_empty_picture_foreground.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-mdpi\\ic_empty_picture_foreground.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_photo_add.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\drawable\\ic_photo_add.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_news_feed.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\layout\\activity_news_feed.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_feed.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\drawable\\ic_feed.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_empty_picture_foreground.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-xhdpi\\ic_empty_picture_foreground.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_empty_picture_round.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_empty_picture_round.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\drawable_google.png.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\drawable\\google.png"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_empty_picture.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_empty_picture.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_empty_picture.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_empty_picture.png"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_photo_add.xml.flat",
-        "source": "D:\\Facultate\\Anul III\\Semestrul 2\\Programarea dispozitivelor mobile in Android\\Proiect\\app\\src\\main\\res\\drawable\\ic_photo_add.xml"
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_empty_picture.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_empty_picture.png"
+    },
+    {
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\layout_motion_layout.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\layout\\motion_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\layout_news_details.xml.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\layout\\news_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_empty_picture_round.png.flat",
+        "source": "C:\\Users\\emaot\\AndroidStudioProjects\\Android-Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_empty_picture_round.png"
     }
 ]

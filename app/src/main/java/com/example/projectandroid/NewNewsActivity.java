@@ -7,6 +7,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -23,6 +24,7 @@ import com.example.projectandroid.models.User;
 import com.example.projectandroid.repository.NewsRepository;
 import com.example.projectandroid.repository.NewsImageRepository;
 import com.example.projectandroid.repository.UserRepository;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.Date;
 
@@ -73,6 +75,33 @@ public class NewNewsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 setValidation();
+            }
+        });
+
+        BottomNavigationView bottomNavigationView=findViewById(R.id.bottom_navigation);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                switch(item.getItemId())
+                {
+                    case R.id.feed:
+                        startActivity(new Intent(getApplicationContext(),NewsFeedActivity.class));
+                        overridePendingTransition(0,0);
+                        return true;
+                    case R.id.logout:
+                        SessionManagement sessionManagement = new SessionManagement(getApplicationContext());
+                        sessionManagement.removeSession();
+                        Intent i = new Intent(getApplicationContext(), LoginActivity.class);
+                        startActivity(i);
+                        return true;
+                    case R.id.add:
+                        startActivity(new Intent(getApplicationContext(),NewNewsActivity.class));
+                        overridePendingTransition(0,0);
+                        return true;
+                }
+                return false;
             }
         });
     }

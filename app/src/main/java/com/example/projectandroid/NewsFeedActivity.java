@@ -13,6 +13,9 @@ import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.projectandroid.models.News;
+import com.example.projectandroid.models.User;
+import com.example.projectandroid.repository.NewsRepository;
+import com.example.projectandroid.repository.UserRepository;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
@@ -21,12 +24,24 @@ import java.util.ArrayList;
 public class NewsFeedActivity extends AppCompatActivity{
 
     Button addNewsButton;
-
+    User user;
+    UserRepository userRepository;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news_feed);
+
+        SessionManagement sessionManagement = new SessionManagement(getApplicationContext());
+        String emailUser = sessionManagement.getSession();
+        System.out.println("merge " + emailUser);
+
+
+        if (emailUser == null){
+            Intent i = new Intent(getApplicationContext(), LoginActivity.class);
+            startActivity(i);
+        }
+
 
         NewsFragment newsFragment =  NewsFragment.newInstance();
 
@@ -76,6 +91,14 @@ public class NewsFeedActivity extends AppCompatActivity{
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.logout:
+                        SessionManagement sessionManagement = new SessionManagement(getApplicationContext());
+                        sessionManagement.removeSession();
+                        Intent i = new Intent(getApplicationContext(), LoginActivity.class);
+                        startActivity(i);
+                        return true;
+                    case R.id.add:
+                        startActivity(new Intent(getApplicationContext(),NewNewsActivity.class));
+                        overridePendingTransition(0,0);
                         return true;
                 }
                 return false;
