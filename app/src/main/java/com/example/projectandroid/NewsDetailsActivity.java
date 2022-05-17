@@ -84,7 +84,7 @@ public class NewsDetailsActivity extends AppCompatActivity {
 
 
         BottomNavigationView bottomNavigationView=findViewById(R.id.bottom_navigation);
-        bottomNavigationView.setSelectedItemId(R.id.feed);
+        bottomNavigationView.getMenu().getItem(3).setChecked(true);
 
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {

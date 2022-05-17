@@ -2894,6 +2894,7 @@ id noState
 id none
 id normal
 id north
+id notVisible
 id notification_background
 id notification_main_column
 id notification_main_column_container

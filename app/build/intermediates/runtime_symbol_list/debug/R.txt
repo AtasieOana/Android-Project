@@ -2893,6 +2893,7 @@ int id noState 0x7f08014f
 int id none 0x7f080150
 int id normal 0x7f080151
 int id north 0x7f080152
+int id notVisible 0x7f08020e
 int id notification_background 0x7f080153
 int id notification_main_column 0x7f080154
 int id notification_main_column_container 0x7f080155

@@ -39,6 +39,7 @@ id motionLayout
 id newsAuthor
 id newsTitle
 id news_img
+id notVisible
 id passwordInput
 id pressLoginButton
 id productDescription

@@ -19,4 +19,9 @@
         android:icon="@drawable/ic_logout"
         />
 
+    <item
+        android:id="@+id/notVisible"
+        android:title="Not visible"
+        android:visible="false"/>
+
 </menu>
