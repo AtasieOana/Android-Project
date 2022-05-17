@@ -47,22 +47,12 @@
         app:defaultQueryHint="Search news by title"
         app:queryHint="Search news by title" />
 
-    <FrameLayout
-        android:id="@+id/layoutAnimationFragment"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/animationFragment"
+        android:name="com.example.projectandroid.AnimationFragment"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        tools:context=".AnimationFragment">
-
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/animationFragment"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:name="com.example.projectandroid.AnimationFragment"
-            tools:layout="@layout/fragment_animation" />
-
-    </FrameLayout>
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_animation" />
 
     <FrameLayout
         android:id="@+id/layoutNewsFragment"
