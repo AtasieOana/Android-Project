@@ -19,7 +19,6 @@ drawable world
 id NewsList
 id Share
 id add
-id addButton
 id addNewsButton
 id animation
 id animationFragment

@@ -23,7 +23,6 @@ import java.util.ArrayList;
 
 public class NewsFeedActivity extends AppCompatActivity{
 
-    Button addNewsButton;
     User user;
     UserRepository userRepository;
 
@@ -50,18 +49,8 @@ public class NewsFeedActivity extends AppCompatActivity{
         transaction.replace(R.id.animationFragment,animationFragment,"anim_fragment");
         transaction.commit();
 
-        addNewsButton = findViewById(R.id.addButton);
 
         System.out.println("main activity");
-
-        addNewsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // redirect to NewNewsActivity
-                Intent intent = new Intent(getApplicationContext(), NewNewsActivity.class);
-                startActivity(intent);
-            }
-        });
 
         initSearch(newsFragment);
 
