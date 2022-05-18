@@ -15,6 +15,7 @@ drawable ic_launcher_foreground
 drawable ic_logout
 drawable ic_photo_add
 drawable news
+drawable world
 id NewsList
 id Share
 id add
